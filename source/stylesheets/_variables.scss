@@ -69,7 +69,7 @@ $phone-width: $tablet-width - $nav-width; // min width before reverting to mobil
 ////////////////////
 %default-font {
   font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
-  font-size: 13px;
+  font-size: 1em;
 }
 
 %header-font {
@@ -79,7 +79,7 @@ $phone-width: $tablet-width - $nav-width; // min width before reverting to mobil
 
 %code-font {
   font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
-  font-size: 12px;
+  font-size: .9em;
   line-height: 1.5;
 }
 
@@ -102,4 +102,9 @@ $search-box-border-color: #666;
 %break-words {
     word-break: break-all;
     hyphens: auto;
+}
+
+h2.success-bg {
+  padding: 1em;
+  background: adjust-color(#6ac174, $hue: 15deg, $lightness: -20);
 }

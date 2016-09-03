@@ -17,108 +17,74 @@ includes:
 search: true
 ---
 
-# Introduction
+# LifeIQ: Your Artifical Intelligence Assistant
+#### LifeIQ: Digital Self-Mastery
 
-LifeIQ is a system for tracking anything efficiently, externalizing knowledge, and building networks of insight through linked data.
+## What is LifeIQ?
+* tracking anything, in context and efficiently
+* structuring, organizing and viewing knowledge
+* building networks of increased insight and effective action through linked data.
 
-This example documentation page was created with [Slate](https://github.com/tripit/slate). Feel free to edit it and use it as a base for your own documentation.
+## Modules / Domains
 
-# Authentication
+  1. Contextual Bookmarking and Tab Management (with ratings, table views)
+  2. Workout Planning & Tracking (5-3-1 niche, then expand)
+  3. Personal Learning Environment (focus, timers, flashcards, reminders, curriculum structure)
+  4. Journal and Ideas Log
+  5. Tracking Activities of Daily Living
+  6. Personal Cashflow and Budgeting Tool
+  7. Grocery Shopping Macronutrient Value Calculator
 
-> To authorize, use this code:
+## Externalized Intelligence
+### It's hard to keep track of everything. LifeIQ aims to be the ultimate personal productivity tool. Gain exernalized intelligence on your life.
 
-```ruby
-require 'kittn'
+* Habits & Quality of Life Tracking
+* Task, Project and Learning Management: Includes Timers and Action Management
+* Integrated Contextual Bookmarking of both WWW and Local Filesystem
+* Multiple Views: Lists, Tables, Calendar, GANTT, Concept Maps, Many Types of Graph
+* Review: Tickler Categories and Intervals, Daily Dashboard
 
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-```
+  <aside class="notice"> No solution exists which integrates these functions. Within each of the listed domains, leading solutions are also limited by UX/UI flaws, as well as by their inflexible and very domain-specific implementations.
+  </aside> 
 
-```python
-import kittn
+  
+## Strategy:
+<aside class="success">
+<h2 class="success-bg">  Master Business Plan  </h2>
+<ol>
+  <li>Making an amazingly great product</li>
+  <li>Charge money for it</li>
+</ol>
 
-api = kittn.authorize('meowmeowmeow')
-```
+</aside>
 
-```shell
-# With shell, you can just pass the correct header with each request
-curl "api_endpoint_here"
-  -H "Authorization: meowmeowmeow"
-```
+  1. Web app
+  2. Browser extension
+  3. Desktop application (for global hotkey support)
+  4. Native mobile app: Android
+  5. Native mobile app: iOS
+  6. Custom platform: Large-size wall mounted touchscreens
 
-```javascript
-const kittn = require('kittn');
+### Users
+  * Quantified Self Movement
+  * CrossFitters
+  * Freelancers
+  * Researchers
+  * Social Media Professionals/Entrepreneurs
+  
 
-let api = kittn.authorize('meowmeowmeow');
-```
 
-> Make sure to replace `meowmeowmeow` with your API key.
 
-Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](http://example.com/developers).
+## Measuring Makes Us More Effective
+## Structuring and Linking Data Leads to New Insights
+## Review Deepens Our Knowledge 
+## Reminders Help us Stay on Track
+## Timers Focus Our Attention
 
-Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
-
-`Authorization: meowmeowmeow`
 
 <aside class="notice">
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
-
-# Kittens
-
-## Get All Kittens
-
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.get
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get()
-```
-
-```shell
-curl "http://example.com/api/kittens"
-  -H "Authorization: meowmeowmeow"
-```
-
-```javascript
-const kittn = require('kittn');
-
-let api = kittn.authorize('meowmeowmeow');
-let kittens = api.kittens.get();
-```
-
-> The above command returns JSON structured like this:
-
-```json
-[
-  {
-    "id": 1,
-    "name": "Fluffums",
-    "breed": "calico",
-    "fluffiness": 6,
-    "cuteness": 7
-  },
-  {
-    "id": 2,
-    "name": "Max",
-    "breed": "unknown",
-    "fluffiness": 5,
-    "cuteness": 10
-  }
-]
-```
-
-This endpoint retrieves all kittens.
-
-### HTTP Request
-
-`GET http://example.com/api/kittens`
 
 ### Query Parameters
 
@@ -131,55 +97,8 @@ available | true | If set to false, the result will include kittens that have al
 Remember — a happy kitten is an authenticated kitten!
 </aside>
 
-## Get a Specific Kitten
-
-```ruby
-require 'kittn'
-
-api = Kittn::APIClient.authorize!('meowmeowmeow')
-api.kittens.get(2)
-```
-
-```python
-import kittn
-
-api = kittn.authorize('meowmeowmeow')
-api.kittens.get(2)
-```
-
-```shell
-curl "http://example.com/api/kittens/2"
-  -H "Authorization: meowmeowmeow"
-```
-
-```javascript
-const kittn = require('kittn');
-
-let api = kittn.authorize('meowmeowmeow');
-let max = api.kittens.get(2);
-```
-
-> The above command returns JSON structured like this:
-
-```json
-{
-  "id": 2,
-  "name": "Max",
-  "breed": "unknown",
-  "fluffiness": 5,
-  "cuteness": 10
-}
-```
-
-This endpoint retrieves a specific kitten.
-
 <aside class="warning">Inside HTML code blocks like this one, you can't use Markdown, so use <code>&lt;code&gt;</code> blocks to denote code.</aside>
 
-### HTTP Request
-
-`GET http://example.com/kittens/<ID>`
-
-### URL Parameters
 
 Parameter | Description
 --------- | -----------
